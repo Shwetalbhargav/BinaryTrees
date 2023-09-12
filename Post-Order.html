@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Post-Order</title>
+  
+  <link href="CSS/Home.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link href="CSS/Home.css">
+</head>
+<body>
+  <div class="row jumbotron bg-info">
+    <div class="col-4">
+      <img id="logo " class="logo" src="CSS/logo1.jpg" style="width: 150px; height: 150px; border-radius:5px;">
+    </div>
+    <div class="col-6">
+      <h1 class="display-2">Binary Tree</h1>
+      <p>By Shwetal Shah</p>      
+    </div>    
+  </div>
+  
+  
+  <nav class="navbar navbar-expand-sm ">
+    <ul class="navbar-nav" style="position: relative;">
+      <li class="nav-item"><a class="btn btn-outline-success" type="submit" href="Home.html" target="_self" style="margin-right: 15px; color: black;" >Home</a></li>
+      <li class="nav-item"><a class="btn btn-outline-secondary" type="submit" href="Types.html" target="_blank" style="margin-right: 15px; color: black;" >Types of Binary Tree</a></li>
+      <li class="nav-item"><a class="btn btn-outline-danger" type="submit" href="Travsers.html" target="_blank" style="margin-right: 15px; color: black;">Travsers</a></li>
+      <li class="nav-item"><a class="btn btn-outline-success"type="submit" href="Post-Order.html" target="_blank" role="button" style="margin-right: 15px; color: black;">Post-Order</a></li>
+      <li class="nav-item"><a class="btn btn-outline-primary" type="submit" href="Pre-Order.html" target="_blank" role="button"style="margin-right: 15px; color: black;">Pre-Order</a></li>
+      <li class="nav-item"><a class="btn btn-outline-warning" type="submit" href="Quiz.html" target="_blank" style="margin-right: 15px; color: black;">Quiz</a></li>
+      
+    </ul>
+  </nav>
+  <div class="container mt-4">
+    <div class="media">
+      <div class="media-body">
+        <h3 class=" display-6 font-weight-bold" > Construction of Binary Tree</h3>
+        <h3 class=" display-6 font-weight-bold" > Postorder Traversal</h3>
+        <p class="dispaly-4 font-italic font-weight-bold">
+          In this traversal method, the root node is visited last, hence the name. First we traverse the left subtree, then the right subtree and finally the root node. <br/>
+        <h3 class=" display-6 font-weight-bold" > Postorder Traversal Algorithm</h3>
+        
+        <ol class="font-italic font-weight-bold">
+          <li>Recursively traverse left subtree.</li>       
+          <li>Recursively traverse right subtree.</li>          
+          <li>Visit root node.</li>
+        </ol>            
+        </p>
+       <img src="CSS/postorder_traversal.jpg">
+       <p class="dispaly-4 font-italic font-weight-bold">
+        We start from A, and following Post-order traversal, we first visit the left subtree B. B is also traversed post-order. The process goes on until all the nodes are visited. The output of post-order traversal of this tree will be −
+        <br/>
+
+        D → E → B → F → G → C → A
+       </p>
+        </div>
+    </div>
+  </div>
+  <div class="container mt-4">
+    <div class="media">
+      <div class="media-body">
+        <img src="CSS/BTree.jpg">
+                       
+            <h3 class="display-6 font-weight-bold">Traversal</h3> 
+            <p class="dispaly-4 font-italic font-weight-bold">
+                Traversal is a process to visit all the nodes of a tree and may print their values too. Because, all nodes are connected via edges (links) we always start from the root (head) node. That is, we cannot random access a node in a tree. There are three ways which we use to traverse a tree −
+            </p>  
+            <ol class="font-italic font-weight-bold">
+              <li class="nav-item"><a class="btn btn-info" type="submit" href="#" target="_blank" style="margin-bottom: 15px; color: black;">In-Order </a></li> 
+              <li class="nav-item"><a class="btn btn-info"type="submit" href="Post-Order.html" target="_blank" style="margin-bottom: 15px; color: black;">Post-Order</a></li>
+              <li class="nav-item"><a class="btn btn-info" type="submit" href="Pre-Order.html" target="_blank" style="margin-right: 15px; color: black;">Pre-Order</a></li>
+            </ol>
+        </div>
+    </div>
+  </div>
+  
+  </div>     
+  <div class="conatiner mt-3">
+      <div class="media media-body p-3">
+          <div class="embed-responsive embed-responsive p-3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fC3s5Pj2KuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+      </div>
+  </div>
+
+      
+  
+   
+  
+  <footer>
+    <h4>Bilbograhy</h4>
+    <p>https://www.tutorialspoint.com/data_structures_algorithms/tree_data_structure.html</p>
+    <p>https://www.w3schools.in/data-structures-tutorial/binary-trees/</p>
+    <p>https://en.wikipedia.org/wiki/Binary_tree</p>
+    <p>https://www.geeksforgeeks.org/binary-tree-set-1-introduction/</p>
+  </footer>
+  
+</body>l
+</html>

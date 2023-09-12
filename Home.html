@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Binary Tree</title>
+  
+  <link href="CSS/Home.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link href="CSS/Home.css">
+</head>
+<body>
+  <div class="row jumbotron bg-info">
+    <div class="col-4">
+      <img id="logo " class="logo" src="CSS/logo1.jpg" style="width: 150px; height: 150px; border-radius:5px;">
+    </div>
+    <div class="col-6">
+      <h1 class="display-2">Binary Tree</h1>
+      <p>By Shwetal Shah</p>      
+    </div>    
+  </div>
+  
+  
+  <nav class="navbar navbar-expand-sm ">
+    <ul class="navbar-nav" style="position: relative;">
+      <li class="nav-item"><a class="btn btn-outline-success" type="submit" href="Home.html" target="_self" style="margin-right: 15px; color: black;" >Home</a></li>
+      <li class="nav-item"><a class="btn btn-outline-secondary" type="submit" href="Types.html" target="_blank" style="margin-right: 15px; color: black;" >Types of Binary Tree</a></li>
+      <li class="nav-item"><a class="btn btn-outline-danger" type="submit" href="Travsers.html" target="_blank" style="margin-right: 15px; color: black;">Travsers</a></li>
+      <li class="nav-item"><a class="btn btn-outline-success"type="submit" href="Post-Order.html" target="_blank" role="button" style="margin-right: 15px; color: black;">Post-Order</a></li>
+      <li class="nav-item"><a class="btn btn-outline-primary" type="submit" href="Pre-Order.html" target="_blank" role="button"style="margin-right: 15px; color: black;">Pre-Order</a></li>
+      <li class="nav-item"><a class="btn btn-outline-warning" type="submit" href="Quiz.html" target="_blank" style="margin-right: 15px; color: black;">Quiz</a></li>
+      
+    </ul>
+  </nav>
+  <div class="container mt-4">
+    <div class="media">
+      <div class="media-body">
+        <h3 class=" display-4 font-weight-bold text-center" >Binary Tree</h3>
+        <p class="dispaly-4 font-italic">
+          A binary tree is a special type of tree in which every node or vertex has either no child node or one child node or two child nodes. A binary tree is an important
+          class of a tree data structure in which a node can have at most two children.Child node in a binary tree on the left is termed as 'left child node' and node in the right is termed as the 'right child node.'
+          Figure below shows that a binary tree consists of a root and two
+          subtrees, Tl and Tr, both of which could possibly be empty
+        </p>
+        <pre>
+          tree
+          ----
+           1    <-- root
+         /   \
+        2     3  
+       /   
+      4
+        </pre>
+
+      <div class="media-body">
+        <h3 class="display-6 font-weight-bold">Binary Tree Representation in C</h3>            
+            <p class="dispaly-4 font-italic">
+              A tree is represented by a pointer to the topmost node in tree. If the tree is empty, then value of root is NULL. 
+              <br/>
+              A Tree node contains following parts. 
+            </p>
+
+            <ol class="font-italic">
+              <li>Data </li>
+              <li>Pointer to left child</li>
+              <li>Pointer to right child</li>
+            </ol>
+            <br/>
+            <br/>
+            <br/>
+            <h3 class="display-6 font-weight-bold">C++</h3>
+            <pre>
+              struct node
+                {
+                  int data 
+                  sturct node*left;
+                  struct node*right;
+                }
+            </pre>
+      </div>  
+      </div>
+    </div>
+  </div>
+  <div class="container mt-3">
+    <div class="media media-body p-3">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/W6aZKAJcNJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+   
+  
+  <footer>
+    <h4>Bilbograhy</h4>
+    <p>https://www.tutorialspoint.com/data_structures_algorithms/tree_data_structure.html</p>
+    <p>https://www.w3schools.in/data-structures-tutorial/binary-trees/</p>
+    <p>https://en.wikipedia.org/wiki/Binary_tree</p>
+    <p>https://www.geeksforgeeks.org/binary-tree-set-1-introduction/</p>
+  </footer>
+  
+</body>l
+</html>
